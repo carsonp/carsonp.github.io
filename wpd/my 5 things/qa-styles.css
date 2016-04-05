@@ -1,0 +1,21 @@
+html, body {
+	margin: 10px;
+	padding: 10px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+}
+
+dt {
+	margin: 0 0 .5em;
+	color: #630;
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 0 1em;
+	font-size: .9em;
+	padding: 20px;
+}

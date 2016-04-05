@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+	background:#CCC;
+	text-align: center;
+	border-style:solid;
+	border-color:#000;
+}
+.underline1 {
+	border-bottom-color:#000;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	
+}
+
+.column1{
+	font-weight:bold;
+}
+.font1 {
+	font-family :Arial, Helvetica, sans-serif;
+}
+.source1 {
+	text-align:left;
+}
+td {
+	width:75px;
+}

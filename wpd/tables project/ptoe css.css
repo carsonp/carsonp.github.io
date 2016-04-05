@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+td {
+	width: 57px;
+}
+.rowhead{
+	width:57px;
+}
+	
+.zigzag1 {
+	border-right-style:solid;
+	border-top-style:solid;
+	border-width:thing
+}
+.colorgreen {
+	background-color:#9fd18b;
+}
+.smush1 {
+	border-collapse: collapse;
+	text-align: center;
+	font-weight: bold;
+}
+.colorlightblue {
+	background-color:#8dd8f8;
+}
+.colorrust {
+	background-color:#f69679;
+}
+.colorpink {
+	background-color:#dc94c0;
+}
+.colorcyan {
+	background-color:#86bae5;
+}
+.coloryellow {
+	background-color:#fff283;
+}
+.colorpurple {
+	background-color:#9b95c9;
+}
+.colorhoney {
+	background-color:#fdb94d;
+}
+
+.num {
+	border: 1px solid #000;
+	border-bottom: 0px;
+	font-size: 12px;
+	border-weight:500;
+	text-align:left;
+}
+td .num {
+	height: 12px;
+}
+.element {
+	border: 1px solid #000;
+	border-top: 0px;
+	font-size: 24px;
+	border-weight: bold;
+	text-align: center;
+	font-weight:600;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	
+.elemspecial {
+	border-right: 4px solid black;
+}
+.numspeacial {
+	border-right: 4px solid black;
+	border-top: 4px solid black;
+}
+
+	
+.cap {
+	font: Arial;
+	font-size:40px;
+}
+.rowhead {
+}
+

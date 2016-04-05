@@ -1,0 +1,66 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta http-equiv="content-type" content="text/html; 		charset=iso-8859-1">
+            <title>Canvas Image Rotator Example</title>
+            
+            <style> 
+				div {position:relative;
+				}
+            	canvas { background-color:#000; 
+						 position:absolute;
+						 transform:translateX(50%);
+						 background:linear-gradient(to bottom, #fff 4%, #000 44%, #999 100%);			
+				}
+            </style>
+            <script type="text/javascript">
+            	var imagePaths=[
+                	"cheasepeake.jpg", "emerald_bay.jpg", "lighthouse.jpg", "Maelstrom.jpg", "sunsetsolomons.jpg", "solomonsisland.jpg"];
+                var showCanvas = null;
+                var showCanvasCtx = null;
+                var img = document.createElement("img");
+                var currentImage = 0;
+				var revealTimer;
+				
+				window.onload = function (){
+					showCanvas = document.getElementById("showCanvas");
+					showCanvasCtx = showCanvas.getContext('2d');
+					
+//					img.setAttribute('width','500');
+//					img.setAttribute('width','800');
+					switchImage();
+					
+					setInterval(switchImage,3000);
+				}
+				
+				function switchImage() {
+					img.setAttribute('src' , imagePaths[currentImage++]);
+					if (currentImage >= imagePaths. length)
+						currentImage = 0;
+						
+					showCanvasCtx.globalAlpha = 0.1;
+					revealTimer= setInterval(revealImage,1);
+					
+				}
+				
+				function revealImage() {
+					showCanvasCtx.save();
+					showCanvasCtx.drawImage(img,(showCanvas.width/ 2) - (img.width/2),(showCanvas.height/ 2) - (img.height/2));
+					showCanvasCtx.globalAlpha += 0.1;
+					if (showCanvasCtx.globalAlpha >= 1.0)
+						clearInterval(revealTimer);
+					showCanvasCtx.restore();
+					
+				}
+ 			</script>
+ 		</head>
+	<body>
+    	<div>
+        	<canvas id='showCanvas' width='500' height='800'>
+        	Canvas Not Supported
+        	</canvas>
+        </div>
+        
+        
+	</body>
+</html>

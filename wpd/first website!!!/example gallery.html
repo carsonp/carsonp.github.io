@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pure CSS Image Lightbox</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+  
+    <link href="example gallery.css" rel="stylesheet" type="text/css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38362593-4', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+<h1>Pure CSS Image Lightbox</h1>
+<p>Click on one of the images below, to pop the lightbox. Use the next and previous buttons to navigate through the images,<br> and close the lightbox with the X on the top right. </p>
+<p>Read Tutorial <a href="http://webdesignerhut.com/pure-css-image-lightbox/">Here</a></p>
+<!-- Lightbox usage markup -->
+<section id="gallery">
+	<!-- thumbnail image wrapped in a link -->
+    <section class="item">
+        <a href="#img1">
+          <img src="../../img/normal.jpg">
+        </a>
+    </section>
+    <section class="item">
+        <a href="#img2">
+          <img src="../../img/1978-3.3-porsche-930.jpg">
+        </a>
+    </section>
+    <section class="item">
+        <a href="#img3">
+          <img src="../../img/Icon-Porsche-959-Gear-Patrol-Lead-1440.jpg">
+        </a>
+    </section>
+</section>
+
+<!-- lightbox container hidden with CSS -->
+<div class="lightbox" id="img1">
+  <div class="box">
+	<a class="close" href="#">X</a>
+    <p class="title">Lorem ipsum dolor sit amet</p>
+    <div class="content">
+    	<img src="../img/normal.jpg"> 
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text Modal Window Nullam at volutpat ipsum. Nullam nec posuere ante. Nulla molestie ac odio sed malesuada.Text Modal Window With a Video Ut dapibus odio eget vestibulum condimentum.</p>
+    </div>
+    <a class="prev" href="#img2">Previous</a>
+    <a class="next" href="#img3">Next</a>
+    <div class="clear"></div>
+  </div>
+</div>    
+    
+<div class="lightbox" id="img2">
+  <div class="box">
+	<a class="close" href="#">X</a>
+    <p class="title">Lorem ipsum dolor sit amet</p>
+    <div class="content">
+    	<img src="../img/1978-3.3-porsche-930.jpg"> 
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text Modal Window Nullam at volutpat ipsum. Nullam nec posuere ante. Nulla molestie ac odio sed malesuada.Text Modal Window With a Video Ut dapibus odio eget vestibulum condimentum.</p>
+    </div>
+    <a class="prev" href="#img2">Previous</a>
+    <a class="next" href="#img3">Next</a>
+    <div class="clear"></div>
+  </div>
+</div>  
+
+<div class="lightbox" id="img3">
+  <div class="box">
+	<a class="close" href="#">X</a>
+    <p class="title">Lorem ipsum dolor sit amet</p>
+    <div class="content">
+    	<img src="../img/Icon-Porsche-959-Gear-Patrol-Lead-1440.jpg"> 
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text Modal Window Nullam at volutpat ipsum. Nullam nec posuere ante. Nulla molestie ac odio sed malesuada.Text Modal Window With a Video Ut dapibus odio eget vestibulum condimentum.</p>
+    </div>
+    <a class="prev" href="#img2">Previous</a>
+    <a class="next" href="#img1">Next</a>
+    <div class="clear"></div>
+  </div>
+</div>   
+
+    <div class="clear"></div>
+  </div>
+<div id="relatedContent">
+<h3>More Awesome Demos</h3>
+    <div class="item">
+    <a href="http://webdesignerhut.com/examples/jquery-accordion/">
+        <img src="images/simple-jquery-accordion-thumbnail.png">
+        Simple jQuery Accordion
+    </a>
+    </div>
+
+    <div class="item">
+    <a href="http://webdesignerhut.com/examples/pure-css-modal-window/">
+        <img src="images/pure-css-modal-window-effect.png">
+        Pure CSS Modal Window Effect
+    </a>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lightpurple {
+	background-color:#c2cadd;
+}
+.darkpurple {
+	background-color:#a7b3cb;
+}
+.lightblue {
+	background-color:#84bccd;
+}
+.cyan {
+	background-color:#52abb3;
+}
+.lightgreen {
+	background-color:#b7ce98;
+}
+.leafgreen {
+	background-color:#9abb74;
+}
+.deadgreen {
+	background-color:#88a98e;
+}
+.green {
+	background-color:#689574;
+}
+.specialtext {
+	color:white;
+}
+table{
+	border-collapse:collapse;
+	width: 638px;
+	border: 3px solid white;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+.fullcol {
+	text-align:center;
+}
+.workerscol {
+	text-align:center;
+}
+table td:first-child{
+	width: 330px;
+	padding-left:10px;
+}
+table td:second-child{
+	text-align:center;
+}
+table td:third-child{
+	width: 260px;
+	text-align:left;
+}
+.tr{
+	border-bottom: 3px solid white;
+}
+.th{
+	border-bottom: 3px solid black;
+}
+.trspeacial{
+	border-top: 3px solid white;
+}
+
+
+	

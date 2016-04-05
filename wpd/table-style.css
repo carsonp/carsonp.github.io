@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+table tr:nth-child(even) {
+	background:#d2d7e0;
+}
+table tr:nth-child(odd) {
+	background:#e8ebf0;
+}
+
