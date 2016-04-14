@@ -7,7 +7,7 @@ this is README
 
 :checkered_flag:
 
-:red_car::dash::red_car::dash::dash::red_car::dash::dash::red_car::dash::red_car::dash::dash::dash::red_car::dash::red_car::dash::dash:
+  :red_car::dash::red_car::dash::dash::red_car::dash::dash::red_car::dash::red_car::dash::dash::dash::red_car::dash::red_car::dash::dash:
 
 :checkered_flag:
 
