@@ -79,13 +79,13 @@ h2 {
 	font-size:22px;
 	}
 
-.lightbox .content {
+.lightbox .image {
 	display:block;
 	position:relative;
 	}
 	
 
-.lightbox .content .desc {
+.lightbox .image .desc {
 	z-index:99;
 	bottom:0;
 	position:absolute;
@@ -100,7 +100,7 @@ h2 {
 	transition: opacity ease-in-out 0.5s;
 	}	
 	
-.lightbox .content:hover .desc	{
+.lightbox .image:hover .desc	{
 	opacity:1;
 }
 
