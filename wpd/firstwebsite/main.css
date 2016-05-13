@@ -126,6 +126,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
                 letter-spacing: 4px;
                 font-size: 1em;
 				transition-duration: .6s;
+				border-bottom: none;
 				
 }
 
